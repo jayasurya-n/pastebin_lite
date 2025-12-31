@@ -9,9 +9,9 @@ import redis from "../redis.js";
 const app = express();
 app.use(express.json());
 
+// home page
 app.get('/', (req, res) => {
-    res.status(200);
-    res.send("Welcome to root URL of Server");
+    res.status(200).send("Welcome to root URL of Server");
 });
 
 // ping redis server
