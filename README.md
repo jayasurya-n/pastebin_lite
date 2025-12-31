@@ -37,7 +37,7 @@ REDIS_URL = rediss://<your-redis-url>
 TEST_MODE = 0
 
 ### 3. Start the server
-node api/app.js
+npm run dev
 
 
 

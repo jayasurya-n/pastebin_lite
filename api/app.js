@@ -1,11 +1,12 @@
 import express from "express"
 import { nanoid } from "nanoid";
-import 'dotenv/config'
+import dotenv from 'dotenv';
+import "dotenv/config"
 
 import redis from "../redis.js";
 
-const app = express();
 
+const app = express();
 app.use(express.json());
 
 // app.get('/', (req, res) => {
@@ -138,3 +139,4 @@ if (!process.env.VERCEL) {
     });
 };
 
+export default app;

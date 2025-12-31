@@ -1,4 +1,11 @@
 {
+    "name": "paste-service",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "node api/app.js",
+        "start": "node api/app.js"
+    },
     "dependencies": {
         "dotenv": "^17.2.3",
         "express": "^5.2.1",
