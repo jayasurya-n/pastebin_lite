@@ -33,8 +33,8 @@ This project is implemented as a backend-focused service and is designed to pass
 npm install
 
 ### 2. Create a .env file
--REDIS_URL = your-redis-url
--TEST_MODE = 0
+- REDIS_URL = your-redis-url
+- TEST_MODE = 0
 
 ### 3. Start the server
 npm run dev
